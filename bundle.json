@@ -1,0 +1,31 @@
+{
+    "name": "@ohos/lame",
+    "description": "lame is a high quality MP3 encoder.",
+    "version": "3.100",
+    "license": "LGPL V2.1",
+    "publishAs": "code-segment",
+    "segment": {
+        "destPath": "third_party/lame"
+    },
+    "dirs": {},
+    "scripts": {},
+    "licensePath": "COPYING.LGPLv2.1",
+    "component": {
+        "name": "lame",
+        "subsystem": "thirdparty",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": [ "standard" ],
+        "rom": "",
+        "ram": "",
+        "deps": {
+            "components": [],
+            "third_party": []
+        },
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}
