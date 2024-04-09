@@ -21,12 +21,6 @@ config("lame_config") {
     "//third_party/lame/include",
   ]
 
-
-  #defines = [
-  #  "MEDIA_OHOS",
-  #  "HST_ANY_WITH_NO_RTTI",
-  #]
-
   cflags = [
     "-O2",
     "-Wall",
@@ -74,7 +68,6 @@ ohos_shared_library("lame") {
   ]
 
   sources = [
-  # PCM转MP3需要的文件
   "//third_party/lame/libmp3lame/bitstream.c",
   "//third_party/lame/libmp3lame/encoder.c",
   "//third_party/lame/libmp3lame/fft.c",
