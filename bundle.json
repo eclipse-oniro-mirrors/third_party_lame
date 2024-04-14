@@ -23,8 +23,18 @@
             "third_party": []
         },
         "build": {
-            "sub_component": [],
-            "inner_kits": [],
+            "sub_component": ["//third_party/lame:lame"],
+            "inner_kits": [
+                {
+                    "name": "//third_party/lame:lame",
+                    "header": {
+                      "header_files": [
+                        "lame.h"
+                      ],
+                      "header_base": "//third_party/lame/include"
+                    }
+                }
+            ],
             "test": []
         }
     }
